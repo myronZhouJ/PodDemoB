@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodDemoB"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of PodDemoB."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   #s.description  = "test description"
 
-  #s.homepage     = "www.wettown.com"
+  s.homepage     = "www.wettown.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

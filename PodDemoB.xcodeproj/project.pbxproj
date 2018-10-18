@@ -15,6 +15,7 @@
 		9CEC59F521781F5E00995CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59F321781F5E00995CD1 /* LaunchScreen.storyboard */; };
 		9CEC59F821781F5E00995CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC59F721781F5E00995CD1 /* main.m */; };
 		9CEC5A092178519500995CD1 /* PodDemoBClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC5A082178519500995CD1 /* PodDemoBClass1.m */; };
+		9CEC5A2E2178636300995CD1 /* PodDemoBClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC5A2D2178636300995CD1 /* PodDemoBClass2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		9CEC59F721781F5E00995CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CEC5A072178519500995CD1 /* PodDemoBClass1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDemoBClass1.h; sourceTree = "<group>"; };
 		9CEC5A082178519500995CD1 /* PodDemoBClass1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoBClass1.m; sourceTree = "<group>"; };
+		9CEC5A2C2178636300995CD1 /* PodDemoBClass2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDemoBClass2.h; sourceTree = "<group>"; };
+		9CEC5A2D2178636300995CD1 /* PodDemoBClass2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoBClass2.m; sourceTree = "<group>"; };
 		EF5B27A4EE2B18E79A417A91 /* Pods-PodDemoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemoB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemoB/Pods-PodDemoB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +98,8 @@
 			children = (
 				9CEC5A072178519500995CD1 /* PodDemoBClass1.h */,
 				9CEC5A082178519500995CD1 /* PodDemoBClass1.m */,
+				9CEC5A2C2178636300995CD1 /* PodDemoBClass2.h */,
+				9CEC5A2D2178636300995CD1 /* PodDemoBClass2.m */,
 			);
 			path = PodDemoBClass;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			files = (
 				9CEC5A092178519500995CD1 /* PodDemoBClass1.m in Sources */,
 				9CEC59ED21781F5D00995CD1 /* ViewController.m in Sources */,
+				9CEC5A2E2178636300995CD1 /* PodDemoBClass2.m in Sources */,
 				9CEC59F821781F5E00995CD1 /* main.m in Sources */,
 				9CEC59EA21781F5D00995CD1 /* AppDelegate.m in Sources */,
 			);
