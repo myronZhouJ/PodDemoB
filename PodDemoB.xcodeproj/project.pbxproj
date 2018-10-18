@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1547BB3A35093DFF97D7F328 /* libPods-PodDemoB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37187B2898D06F30F20F3105 /* libPods-PodDemoB.a */; };
 		9CEC59EA21781F5D00995CD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC59E921781F5D00995CD1 /* AppDelegate.m */; };
 		9CEC59ED21781F5D00995CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC59EC21781F5D00995CD1 /* ViewController.m */; };
 		9CEC59F021781F5D00995CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59EE21781F5D00995CD1 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37187B2898D06F30F20F3105 /* libPods-PodDemoB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodDemoB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6D0AFB1693A7C37D208A80 /* Pods-PodDemoB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemoB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemoB/Pods-PodDemoB.debug.xcconfig"; sourceTree = "<group>"; };
 		9CEC59E521781F5D00995CD1 /* PodDemoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodDemoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEC59E821781F5D00995CD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CEC59E921781F5D00995CD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		9CEC59F421781F5E00995CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEC59F621781F5E00995CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CEC59F721781F5E00995CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5B27A4EE2B18E79A417A91 /* Pods-PodDemoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemoB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemoB/Pods-PodDemoB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1547BB3A35093DFF97D7F328 /* libPods-PodDemoB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DB687862DD2557BF38DBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37187B2898D06F30F20F3105 /* libPods-PodDemoB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CEC59DC21781F5D00995CD1 = {
 			isa = PBXGroup;
 			children = (
 				9CEC59E721781F5D00995CD1 /* PodDemoB */,
 				9CEC59E621781F5D00995CD1 /* Products */,
+				C3B86F7C5FD8210DE81D9C6F /* Pods */,
+				04DB687862DD2557BF38DBF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = PodDemoB;
 			sourceTree = "<group>";
 		};
+		C3B86F7C5FD8210DE81D9C6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D0AFB1693A7C37D208A80 /* Pods-PodDemoB.debug.xcconfig */,
+				EF5B27A4EE2B18E79A417A91 /* Pods-PodDemoB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CEC59FB21781F5E00995CD1 /* Build configuration list for PBXNativeTarget "PodDemoB" */;
 			buildPhases = (
+				8307C37F1D8AABD31902F456 /* [CP] Check Pods Manifest.lock */,
 				9CEC59E121781F5D00995CD1 /* Sources */,
 				9CEC59E221781F5D00995CD1 /* Frameworks */,
 				9CEC59E321781F5D00995CD1 /* Resources */,
@@ -135,6 +160,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8307C37F1D8AABD31902F456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodDemoB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CEC59E121781F5D00995CD1 /* Sources */ = {
@@ -283,6 +333,7 @@
 		};
 		9CEC59FC21781F5E00995CD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6D0AFB1693A7C37D208A80 /* Pods-PodDemoB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +351,7 @@
 		};
 		9CEC59FD21781F5E00995CD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5B27A4EE2B18E79A417A91 /* Pods-PodDemoB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

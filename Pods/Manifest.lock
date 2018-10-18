@@ -1,0 +1,16 @@
+PODS:
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - TransitionKit (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TransitionKit
+
+SPEC CHECKSUMS:
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: df83603f73311379d208d4b8a0827e193f534963
+
+COCOAPODS: 1.5.3
