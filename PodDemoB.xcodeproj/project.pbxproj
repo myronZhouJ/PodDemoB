@@ -14,6 +14,7 @@
 		9CEC59F221781F5E00995CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59F121781F5E00995CD1 /* Assets.xcassets */; };
 		9CEC59F521781F5E00995CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59F321781F5E00995CD1 /* LaunchScreen.storyboard */; };
 		9CEC59F821781F5E00995CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC59F721781F5E00995CD1 /* main.m */; };
+		9CEC5A092178519500995CD1 /* PodDemoBClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC5A082178519500995CD1 /* PodDemoBClass1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9CEC59F421781F5E00995CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEC59F621781F5E00995CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CEC59F721781F5E00995CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CEC5A072178519500995CD1 /* PodDemoBClass1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDemoBClass1.h; sourceTree = "<group>"; };
+		9CEC5A082178519500995CD1 /* PodDemoBClass1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoBClass1.m; sourceTree = "<group>"; };
 		EF5B27A4EE2B18E79A417A91 /* Pods-PodDemoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemoB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemoB/Pods-PodDemoB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +58,7 @@
 		9CEC59DC21781F5D00995CD1 = {
 			isa = PBXGroup;
 			children = (
+				9CEC5A062178517F00995CD1 /* PodDemoBClass */,
 				9CEC59E721781F5D00995CD1 /* PodDemoB */,
 				9CEC59E621781F5D00995CD1 /* Products */,
 				C3B86F7C5FD8210DE81D9C6F /* Pods */,
@@ -84,6 +88,15 @@
 				9CEC59F721781F5E00995CD1 /* main.m */,
 			);
 			path = PodDemoB;
+			sourceTree = "<group>";
+		};
+		9CEC5A062178517F00995CD1 /* PodDemoBClass */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC5A072178519500995CD1 /* PodDemoBClass1.h */,
+				9CEC5A082178519500995CD1 /* PodDemoBClass1.m */,
+			);
+			path = PodDemoBClass;
 			sourceTree = "<group>";
 		};
 		C3B86F7C5FD8210DE81D9C6F /* Pods */ = {
@@ -191,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEC5A092178519500995CD1 /* PodDemoBClass1.m in Sources */,
 				9CEC59ED21781F5D00995CD1 /* ViewController.m in Sources */,
 				9CEC59F821781F5E00995CD1 /* main.m in Sources */,
 				9CEC59EA21781F5D00995CD1 /* AppDelegate.m in Sources */,
